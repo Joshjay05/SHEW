@@ -53,7 +53,7 @@
 .courses h1 {
   font-size: 36px;
   line-height: 106%;
-  color: rgb(97, 208, 255);
+  /* color: rgb(97, 208, 255); */
 }
 .courses p {
   font-family: Mulish;
@@ -128,7 +128,7 @@
     grid-row: 3/5;
   }
   .courses h1 {
-    color: #61dafb;
+    color: #e37619;
     font-size: 1rem;
     padding-block-end: 10px;
   }

@@ -1,4 +1,4 @@
-import headerImage from "../assets/bannerOne.jpeg";
+import headerImage from "../assets/bannerThree.jpeg";
 // import Button from "";
 
 import useMediaQuery from "../constants/useMediaQuery";
@@ -10,14 +10,14 @@ const Header = () => {
     <header className="bg-[#2d2735] relative  md:h-100vh md:pb-10 md:pt-2 sm:pb-6 z-10  ">
       {isAboveMediumScreens ? (
         <section className="flex flex-row justify-between pb-10  pt-[8rem] relative ">
-          <article className="text-white-400 absolute inset-y-[38%] left-[5.6%]  w-[90%] md:w-auto ">
+          <article className="text-white absolute inset-y-[38%] left-[5.6%]  w-[90%] md:w-auto ">
             <h4 className="text-2xl md:text-lg lg:text-4xl  font-bold w-[60%]">
-              Embrace Your <span className="bg-[#E37619] px-1 ">Heritage,</span>{" "}
+              Embrace{" "}
+              <span className="bg-[#E37619] px-1 ">Humanity ][=-p0``],</span>{" "}
               Enrich Your Connections
             </h4>
             <p className="text-xs md:text-base lg:text-lg leading-normal md:leading-[1.5em] tracking-normal py-3">
-              Journey through Time, Tradition, and <br />
-              Triumphs in the Heart of Itsekiri Culture.
+              Transform lives with us. Give talent a chance
             </p>
             <div className="flex flex-row gap-3 items-center">
               <button className="border-2 border-white-400 rounded-lg py-2 px-4 md:py-3 md:px-6  sm:shadow cursor-pointer">

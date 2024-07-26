@@ -1,17 +1,17 @@
 // import { Link } from "react-router-dom";
-
+import abt from "../assets/abt.jpeg";
 interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
   return (
-    <section className="flex flex-col lg:flex md:flex-row bg-[#e9f8ff] mt-12 md:mt-0">
+    <section className="flex sm:flex-col items-center lg:flex md:flex-row bg-[#e9f8ff] mt-12 md:mt-0">
       <article className="flex-1 p-4 md:p-8">
         <h1 className="text-center md:text-left text-[#61d0ff] text-2xl md:text-4xl font-semibold mb-4">
           About SHEW Foundation
         </h1>
 
         <div className=" flex flex-col gap-4">
-          <p className="leading-6">
+          <p className="leading-[2.5rem]">
             SPREADING HOPE EVERYWHERE FOUNDATION (S.H.E.W.) is a non-profit
             organisation and charity organisation. Started by Rosaline
             Alexander, in 2018 as she is so torn apart by seeing so many
@@ -34,7 +34,7 @@ const About: React.FC<AboutProps> = () => {
             taking them off the streets. We combat hunger and inequality in food
             supply.
           </p>
-          <h4>Our Vision</h4>
+          <h4 className="font-bold text-xl">Our Vision</h4>
           <p>
             {" "}
             Raising a child takes a village. By helping those in need, we aim
@@ -43,26 +43,14 @@ const About: React.FC<AboutProps> = () => {
             self-development and nutrition.
           </p>
         </div>
-
-        {/* <a
-          href="/about-us"
-          className="inline-block bg-[#61d0ff] text-white font-bold text-lg py-2 px-4 rounded-md"
-        >
-          Read More
-        </a> */}
       </article>
-      {/* <article className="relative flex-1 p-4 md:p-8">
+      <article className="relative flex-1 p-4 md:p-8">
         <img
-          src=""
-          alt="About TM30 Academy"
+          src={abt}
+          alt="About SHEW"
           className="w-full h-auto rounded-lg mb-4"
         />
-        <img
-          src=""
-          alt="Half Circle"
-          className="absolute bottom-2 right-0 w-32 md:w-80"
-        />
-      </article> */}
+      </article>
     </section>
   );
 };

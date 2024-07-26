@@ -38,8 +38,8 @@ const Membership = () => {
         {/* right */}
         <div className="flex flex-col gap-3">
           <div className="flex flex-col gap-3 py-2">
-            <h4 className="font-bold text-lg"> </h4>
-            <p>Why we need Volunteers or Donations</p>
+            <h4 className="font-bold text-lg">HOW CAN WE HELP THEM? </h4>
+            <p></p>
           </div>
           <MembershipCard
             number="01."

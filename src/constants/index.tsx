@@ -164,7 +164,7 @@ export const FOOTER_LINKS = [
 export const SOCIALS_LINKS = {
   title: "Contact Us",
   links: [
-    { label: "tel", value: "+234 913 381 9948" },
+    // { label: "tel", value: "+234 913 381 9948" },
     { label: "Email", value: "" },
   ],
 };
@@ -174,12 +174,12 @@ export const SOCIALS = {
   links: [
     {
       id: 1,
-      href: "https://www.facebook.com/aleroseling",
+      href: "https://www.facebook.com/Shewf/",
       icon: FaFacebookSquare,
     },
     {
       id: 2,
-      href: "https://www.instagram.com/aleroseline/",
+      href: "https://www.instagram.com/shew_foundation",
       icon: FaInstagram,
     },
   ],

@@ -10,8 +10,21 @@ const Image: React.FC = () => {
   return (
     <section className="image-pic">
       <article className="courses">
-        <div className="course-description">
-          <h1>A COLLECTION OF OUR OUTREACHES</h1>
+        <div className="">
+          <h1 className="text-[#E37619]">S.H.E.W Past Events</h1>
+          <p className="text-left px-4">
+            <b>Combat Hunger:</b> Helping children, elderly and widows on the
+            street in Nigeria. Providing them food and essentials. Giving them
+            hope that S.H.E.W Foundation is doing their best to keep helping the
+            ones in need
+            <p>
+              <b>Transforming Lives:</b> S.H.E.W Foundation made a visit to Ay
+              Isigi Nursing Home in Cyprus. Donating essentials and supporting
+              the caretakers. A smile and letting them know others are helping
+              is a massive step forward for progress
+            </p>
+            w 23 ]\
+          </p>
         </div>
 
         <section id="content">
