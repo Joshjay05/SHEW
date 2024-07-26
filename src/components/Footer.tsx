@@ -12,9 +12,7 @@ const Footer = () => {
             <img
               src={logo}
               alt="logo"
-              width={180}
-              height={180}
-              className="rounded-full"
+              className=" lg:w-[160px] w-[100px] rounded-full"
             />
           </a>
         </div>
