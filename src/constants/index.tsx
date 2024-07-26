@@ -1,7 +1,7 @@
 // Navigation
 import { IconType } from "react-icons";
 import { AiOutlineHome } from "react-icons/ai";
-import { BiHotel, BiRestaurant, BiShoppingBag } from "react-icons/bi";
+// import { BiHotel, BiRestaurant, BiShoppingBag } from "react-icons/bi";
 // import { BsMarkerTip } from "react-icons/bs";
 import { CgSupport } from "react-icons/cg";
 import { CiCircleQuestion } from "react-icons/ci";
@@ -9,7 +9,7 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 // import { FaEarthAmericas } from "react-icons/fa6";
 
 import { IoIosContact } from "react-icons/io";
-import { IoCheckmarkCircleOutline, IoPlanetOutline } from "react-icons/io5";
+import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 import { MdSupportAgent } from "react-icons/md";
 import { SiCoursera } from "react-icons/si";
@@ -35,78 +35,6 @@ export const NAV_LINKS: NAV[] = [
   //   icon: FaEarthAmericas,
   // },
   { href: "#footer", key: "contact", label: "Contact", icon: IoIosContact },
-];
-
-// CATEGORIES SECTION
-
-export const categories = [
-  {
-    title: "places",
-    // icon:ImEarth,
-    icon: IoPlanetOutline,
-  },
-  {
-    title: "restaurants",
-    icon: BiRestaurant,
-  },
-  {
-    title: "Hotels",
-    icon: BiHotel,
-  },
-  {
-    title: "shopping",
-    icon: BiShoppingBag,
-  },
-];
-
-//FEATURE SECTION
-
-export const FEATURE = [
-  {
-    title: "Australia",
-    URL: "/paris.jpg",
-    des: "",
-  },
-  {
-    title: "Canada",
-    URL: "/Aust.jpg",
-    des: "",
-  },
-  {
-    title: "Finland",
-    URL: "/london.jpg",
-    des: "",
-  },
-  {
-    title: "Ireland",
-    URL: "/Germany.jpg",
-    des: " ",
-  },
-  {
-    title: "Lithuania",
-    URL: "/hongkong.jpg",
-    des: "",
-  },
-  {
-    title: "Sweden",
-    URL: "/hongkong.jpg",
-    des: "",
-  },
-  {
-    title: "UK",
-    URL: "/london.jpg",
-    des: "",
-  },
-  {
-    title: "US",
-    URL: "/hongkong.jpg",
-    des: "",
-  },
-  {
-    title: "Croatia",
-    URL: "/Croa.jpg",
-    des: "",
-  },
 ];
 
 // About
@@ -225,13 +153,7 @@ export const TESTIMONIAL = [
 export const FOOTER_LINKS = [
   {
     title: "Learn More",
-    links: [
-      "about Us",
-      "Destinations",
-      "Travel Guide",
-      "Book Now",
-      "Privacy Policy",
-    ],
+    links: ["about Us", "Volunteer", "Donate"],
   },
   {
     title: "Our Community",
@@ -242,8 +164,8 @@ export const FOOTER_LINKS = [
 export const SOCIALS_LINKS = {
   title: "Contact Us",
   links: [
-    { label: "Contact Number", value: "+234 913 381 9948" },
-    { label: "Email Address", value: "everywherewegoconsult.org" },
+    { label: "tel", value: "+234 913 381 9948" },
+    { label: "Email", value: "" },
   ],
 };
 
