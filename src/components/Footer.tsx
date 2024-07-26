@@ -5,7 +5,7 @@ import logo from "../assets/logo.jpeg";
 const Footer = () => {
   return (
     <footer className="bg-slate-300 py-8 px-4 md:px-8 lg:px-16">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
+      <div className="container mx-auto flex sm:flex-col md:flex-row justify-between items-start">
         {/* Logo Section */}
         <div className="mb-6 md:mb-0 flex justify-center md:justify-start">
           <a href="/" className="flex items-center">
@@ -40,10 +40,7 @@ const Footer = () => {
         <div className="mb-6 md:mb-0">
           <FooterColumn title={SOCIALS_LINKS.title}>
             {SOCIALS_LINKS.links.map((link) => (
-              <div
-                className="flex flex-col md:flex-row gap-2 mb-2"
-                key={link.label}
-              >
+              <div className="flex  md:flex-row gap-2 mb-2" key={link.label}>
                 <p className="font-medium">{link.label}:</p>
                 <p className="text-gray-700">{link.value}</p>
               </div>
