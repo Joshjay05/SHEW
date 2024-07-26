@@ -8,7 +8,7 @@ const Membership = () => {
   return (
     <section id="donation" className="md:mt-[30rem] sm:mt-[3rem] lg:my-[3rem]">
       <h2 className="text-center text-[#E37619] text-[36px] my-6 font-bold">
-        Call For Help
+        Supporting Vulnerable Populations: A Call to Action
       </h2>
       <article className="grid grid-cols-2 sm:flex sm:flex-col md:flex md:flex-col mx-[4%] gap-12">
         {/* left */}
