@@ -21,8 +21,8 @@ const Navbar = () => {
       <img
         src={logo}
         alt="logo"
-        width={50}
-        height={50}
+        width={80}
+        height={80}
         className="rounded-full"
       />
       {/* </Link> */}
@@ -44,14 +44,14 @@ const Navbar = () => {
           </a>
         ))}
       </ul>
-      <div className="hidden lg:block">
+      <a href="mailto:info@shewfoundation.com" className="hidden lg:block">
         <Button
           type="button"
           variant="btn_dark_rounded"
           title="Get in touch"
           icon={FcCallTransfer}
         />
-      </div>
+      </a>
       {/* mobile */}
       {!showMenu ? (
         <div className="lg:hidden inline-block  cursor-pointer bg-slate-10">

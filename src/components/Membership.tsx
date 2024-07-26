@@ -34,8 +34,8 @@ const Membership = () => {
               in need. Join us in making a meaningful impact—your support truly
               matters.
             </p>
-            <a href="reg">
-              <button className="bg-[#E37619] border text-white rounded-lg py-[12px] px-[24px] my-[2rem] text-[16px] cursor-pointer">
+            <a href="mailto:info@shewfoundation.com">
+              <button className="bg-[#E37619] border text-white rounded-lg px-[24px] my-[2rem] text-[16px] cursor-pointer">
                 Get in Touch
               </button>
             </a>
