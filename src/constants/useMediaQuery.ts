@@ -1,17 +1,23 @@
 import { useState, useEffect } from "react";
 
-const useMediaQuery = (query) => {
-  const [matches, setMatches] = useState(false);
+// Define the type for the query parameter
+const useMediaQuery = (query: string): boolean => {
+  const [matches, setMatches] = useState<boolean>(false);
 
   useEffect(() => {
     const media = window.matchMedia(query);
-    if (media.matches !== matches) {
-      setMatches(media.matches);
-    }
+    // Set initial state based on the media query
+    setMatches(media.matches);
+
+    // Define a listener function
     const listener = () => setMatches(media.matches);
-    window.addEventListener("resize", listener);
-    return () => window.removeEventListener("resize", listener);
-  }, [matches, query]);
+
+    // Add the listener to the media query
+    media.addEventListener("change", listener);
+
+    // Clean up the listener on component unmount
+    return () => media.removeEventListener("change", listener);
+  }, [query]);
 
   return matches;
 };
