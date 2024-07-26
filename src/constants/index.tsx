@@ -91,7 +91,7 @@ export const SOCIALS_LINKS = {
   title: "Contact Us",
   links: [
     // { label: "tel", value: "+234 913 381 9948" },
-    { label: "Email", value: "" },
+    { label: "Email", value: "info@shewfoundation.com" },
   ],
 };
 

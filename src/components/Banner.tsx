@@ -25,7 +25,7 @@ const Header = () => {
               >
                 Discover How
               </a>
-              <a href="#footer">
+              <a href="mailto:info@shewfoundation.com">
                 <button className="bg-[#E37619] rounded-lg py-3 px-4 md:py-3 md:px-6 text-base shadow border-0 cursor-pointer">
                   {" "}
                   Join Us Today
@@ -68,7 +68,7 @@ const Header = () => {
                 className="bg-[#E37619] rounded-lg py-[2%] px-[5%] text-[14px] shadow border-0 sm:p-1 sm:text-xs cursor-pointer "
               >
                 {" "}
-                <Link to="reg">Join Us Today</Link>
+                <Link to="mailto:info@shewfoundation.com">Join Us Today</Link>
               </a>
             </div>
           </article>

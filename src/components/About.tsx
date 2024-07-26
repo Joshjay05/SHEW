@@ -15,20 +15,23 @@ const About: React.FC<AboutProps> = () => {
 
         <div className=" flex flex-col gap-4">
           <p className="leading-[2.5rem]">
-            SPREADING HOPE EVERYWHERE FOUNDATION (S.H.E.W.) is a non-profit
-            organisation and charity organisation. Started by Rosaline
-            Alexander, in 2018 as she is so torn apart by seeing so many
-            vulnerable children living on the streets without basic needs nor
-            proper education. The charity was approved in 2019 by the CAC
-            (Corporate Affairs Commission) in Nigeria. Certificate number
-            CAC/RC-128677 The records can be found on
-            https://publicsearch.cac.gov.ng/ With Registration name Spreading
-            Hope Everywhere Foundation Rose and her team of trustees are aiming
-            to build a better world for everyone, and that is why they need your
-            help. S.H.E.W. Foundation started small in 2018 and is now growing
-            to make an impact. Help S.H.E.W. All donations go towards food,
-            essentials, clothing and a better online presence to make others
-            aware about our charity.
+            Spreading Hope Everywhere Foundation (S.H.E.W.) is a non-profit and
+            charitable organization established in 2018 with a mission to
+            support vulnerable children living on the streets who lack basic
+            needs and proper education. Officially registered in Nigeria in 2019
+            under the Corporate Affairs Commission (CAC) with certificate number
+            CAC/RC-128677, S.H.E.W. Foundation is committed to creating a
+            positive impact in communities. Our foundation, which started as a
+            small initiative, has grown significantly, driven by a dedicated
+            team of trustees and supporters. Our collective goal is to build a
+            better world for those in need. We focus on providing food,
+            essentials, clothing, and enhancing our online presence to raise
+            awareness about our mission. We invite you to join us in our
+            efforts. Your donations play a crucial role in sustaining our
+            programs and expanding our reach. Together, we can make a difference
+            and bring hope to many. For more information, you can verify our
+            registration details at CAC Public Search, under the name Spreading
+            Hope Everywhere Foundation.
           </p>
           <h4 className="font-bold text-xl">Our Mission </h4>
           <p>
