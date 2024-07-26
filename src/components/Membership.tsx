@@ -6,7 +6,7 @@ import vol from "../assets/Vol.jpeg";
 
 const Membership = () => {
   return (
-    <section id="donation" className="my-[3rem]">
+    <section id="donation" className="md:mt-[30rem] sm:mt-[3rem] lg:my-[3rem]">
       <h2 className="text-center text-[#E37619] text-[36px] my-6 font-bold">
         Call For Help
       </h2>
@@ -15,7 +15,7 @@ const Membership = () => {
         <div className="flex flex-col gap-4">
           <img src={vol} alt="membershipImage" className="w-full" />
           <div className="leading-[3rem] my-10">
-            <h3 className="font-bold text-2xl">
+            <h3 className="font-bold text-2xl md:text-center sm:text-center">
               Support S.H.E.W Foundation: Your Donation Makes a Difference
             </h3>
             <p className="leading-[2rem] py-[2rem]  text-justify">

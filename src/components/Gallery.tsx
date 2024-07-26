@@ -8,11 +8,11 @@ import "./gallery.css";
 
 const Image: React.FC = () => {
   return (
-    <section className="image-pic">
+    <section className="image-pic " style={{ marginBlock: "4rem" }}>
       <article className="courses">
         <div className="">
-          <h1 className="text-[#E37619]">S.H.E.W Past Events</h1>
-          <p className="text-left px-4">
+          <h1 className="text-[#E37619] text-center">S.H.E.W Past Events</h1>
+          <p className="text-left px-4 leading-9">
             S.H.E.W Foundation: Transforming Lives and Combating Hunger At the
             S.H.E.W Foundation, our mission extends across borders to make a
             tangible difference in the lives of those in need. In Nigeria, we
