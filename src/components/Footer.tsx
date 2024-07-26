@@ -1,37 +1,80 @@
-import { BiCart } from "react-icons/bi";
-import logo from "../assets/MenWears.png";
-import { Link } from "react-router-dom";
-
+import { FOOTER_LINKS, SOCIALS, SOCIALS_LINKS } from "../constants";
+import logo from "../assets/logo.jpeg";
 const Footer = () => {
   return (
-    <footer className="bg-[#282828] text-white p-6">
-      <div>
-        <ul className="flex justify-evenly items-center gap-4  lg:gap-8 text-white lg:text-[24px] flex-wrap">
-          <Link to="/">
-            <li className="bg-[#F5FF32] font-bold text-black border rounded-lg px-1 text-xl">
-              Shop
-            </li>
-          </Link>
-          <Link to="/wishlist" className="cursor-pointer">
-            Wishlist
-          </Link>
-          <Link to="/cart" className="flex gap-1 items-center cursor-pointer">
-            Cart <BiCart />
-          </Link>
-          <li>Profile</li>
-        </ul>
-      </div>
+    // <footer id="footer" className="flex">
+    <footer
+      id="footer"
+      className="flex padding-container justify-center bg-slate-300"
+    >
+      <div className="flex  justify-center  gap-[8rem] md:flex-row padding-container">
+        <a href={"/"} className="mb-10 bold-20  mt-14 bg rounded-full">
+          <img
+            src={logo}
+            alt="logo"
+            width={180}
+            height={180}
+            className="rounded-full"
+          />
+        </a>
 
-      <div className="flex justify-center gap-[3rem] lg:text-[24px] py-6">
-        <p>Terms & conditions</p>
-        <p>Contact Us</p>
+        <div className="flex gap-[12rem] sm:justify-between md:flex">
+          {FOOTER_LINKS.map((col) => (
+            <FooterColumn title={col.title} key={col.title}>
+              <ul className="flex flex-col gap-[2rem] regular-14 text-gray-dark">
+                {col.links.map((link) => (
+                  <a href={"/"} key={link}>
+                    {link}
+                  </a>
+                ))}
+              </ul>
+            </FooterColumn>
+          ))}
+        </div>
+
+        <div className="flex">
+          <FooterColumn title={SOCIALS_LINKS.title}>
+            {SOCIALS_LINKS.links.map((link) => (
+              <a
+                href="/"
+                key={link.label}
+                className="flex gap-4 md:flex-col lg:flex-row"
+              >
+                <p>{link.label}:</p>
+                <p className="medium-14">{link.value}</p>
+              </a>
+            ))}
+          </FooterColumn>
+        </div>
+        <div className="flex">
+          <FooterColumn title={SOCIALS.title}>
+            <ul className="flex gap-4">
+              {SOCIALS.links.map((link) => (
+                <li key={link?.id}>
+                  <a href={link.href}>
+                    <link.icon className="text-2xl" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </FooterColumn>
+        </div>
       </div>
-      <Link to="/" className="">
-        <img src={logo} alt="logo cl" className="sm:w-[60%] mx-auto py-4 " />
-        {/* <img src={logo} alt="logo cl" className="sm:w-[50%]"/> */}
-      </Link>
     </footer>
+    // </footer>
   );
 };
 
+type FooterColumnProps = {
+  title: string;
+  children: React.ReactNode;
+};
+const FooterColumn = ({ title, children }: FooterColumnProps) => {
+  return (
+    <div className="flex flex-col gap-5 my-6">
+      <h4 className="bold-18 whitespace-nowrap">{title}</h4>
+      {children}
+    </div>
+  );
+};
 export default Footer;

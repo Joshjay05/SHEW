@@ -1,68 +1,67 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import Button from "../Reusable/Button";
 // import MembershipCard from "../Reusable/AboutCard";
 import MembershipCard from "./MemberShipCard";
-import memberImage from "../assets/membership.png";
+import vol from "../assets/Vol.jpeg";
 
 const Membership = () => {
   return (
     <section>
       <h2 className="text-center text-[#E37619] text-[36px] my-6 font-bold">
-        Membership Information
+        Call For Help
       </h2>
       <article className="grid grid-cols-2 sm:flex sm:flex-col md:flex md:flex-col mx-[4%] gap-12">
         {/* left */}
         <div className="flex flex-col gap-4">
-          <img src={memberImage} alt="membershipImage" className="w-full" />
+          <img src={vol} alt="membershipImage" className="w-full" />
           <div className="leading-[3rem] my-10">
-            <h3 className="font-bold text-2xl">Membership and Benefits</h3>
+            <h3 className="font-bold text-2xl">Call For Funding</h3>
             <p className="leading-[2rem] py-[2rem]  text-justify">
-              Embrace your Itsekiri heritage by joining our General Membership—a
-              community that welcomes every Itsekiri and friend of Itsekiri
-              culture. As a member, you'll engage in preserving and celebrating
-              our rich traditions through a variety of cultural events, have
-              access to valuable networking opportunities, and play a pivotal
-              role in our collective efforts to uplift and support our people
-              both in Chicago and back home. Discover the joys of staying
-              connected to your roots and the rewards of contributing to the
-              vibrancy of Itsekiri culture. Join us and enrich not just your own
-              life but the fabric of our entire community.
+              With your donation, we are able to organise more events. Visit the
+              regions that are in need and provide them with the basic. Our
+              S.H.E.W. events are spreading hope, knowing others care and that
+              provides motivation. Donate today through our GOFUNDME campaign,
+              Facebook page or directly on the website. Our goal is to raise 100
+              000 euros, to deliver and build that ecosystem for children in
+              need and take them off the streets. Changing the world is hard,
+              but we can contribute making one or two places better at a time.
+              Your donation matters. Every dollar, euro, pound is a catalyst and
+              helps S.H.E.W. building a better future
             </p>
-            <Link to="reg">
-              <button className="bg-[#E37619] border text-white rounded-lg py-[18px] px-[24px] my-[8rem] text-[16px] cursor-pointer">
-                Become a Member
+            <a href="reg">
+              <button className="bg-[#E37619] border text-white rounded-lg py-[12px] px-[24px] my-[2rem] text-[16px] cursor-pointer">
+                Get in Touch
               </button>
-            </Link>
+            </a>
           </div>
         </div>
         {/* right */}
         <div className="flex flex-col gap-3">
           <div className="flex flex-col gap-3 py-2">
-            <h4 className="font-bold text-lg"> Joining Process</h4>
-            <p>
-              Becoming a member is easy. Follow our step-by-step guide or click
-              here to start your journey with us today.
-            </p>
+            <h4 className="font-bold text-lg"> </h4>
+            <p>Why we need Volunteers or Donations</p>
           </div>
           <MembershipCard
             number="01."
-            title="Access the Form"
-            text="Becoming a member is easy. Follow our step-by-step guide or click here to start your journey with us today. . "
+            title="Education"
+            text="Help us give a child a fighting chance. Good education is an
+              investment to rebuild their region. Giving children that become
+              adults the ability and the tools to sustain themselves "
           />
           <MembershipCard
             number="02."
-            title="Access the Form"
-            text="Navigate to our online Membership Form directly on our website. . "
+            title="Infrastructure"
+            text="With education and food, people will be able to build a better infrastructure and supply chain for essentials. That includes a better agriculture and producing the much needed basics. "
           />
           <MembershipCard
             number="03."
-            title="Fill in Details.  "
-            text="Provide your personal details, Itsekiri heritage information, and express your interests and potential contributions.. .  "
+            title="Nutrition  "
+            text="PProviding them enough food and healthy meals will lower the deaths. Building better immune systems will decrease the risk of being hospitalized and take the burden of nursing homes, clinics and doctors  "
           />
           <MembershipCard
             number="04."
-            title="Await Confirmation"
-            text="Receive an immediate email confirmation of your application receipt. . "
+            title="Ecosystem"
+            text="Help us, to build this better ecosystem for the poor. The less children and needy living on the streets, the less we face crime and desperation. Help S.H.E.W. to create that ecosystem "
           />
           <MembershipCard
             number="05."

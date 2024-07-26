@@ -6,7 +6,7 @@ import { BiHotel, BiRestaurant, BiShoppingBag } from "react-icons/bi";
 import { CgSupport } from "react-icons/cg";
 import { CiCircleQuestion } from "react-icons/ci";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
-import { FaEarthAmericas } from "react-icons/fa6";
+// import { FaEarthAmericas } from "react-icons/fa6";
 
 import { IoIosContact } from "react-icons/io";
 import { IoCheckmarkCircleOutline, IoPlanetOutline } from "react-icons/io5";
@@ -28,12 +28,12 @@ export const NAV_LINKS: NAV[] = [
     icon: AiOutlineHome,
   },
   { href: "#about", key: "about", label: "About", icon: CiCircleQuestion },
-  {
-    href: "#packages",
-    key: "packages",
-    label: "Packages",
-    icon: FaEarthAmericas,
-  },
+  // {
+  //   href: "#packages",
+  //   key: "packages",
+  //   label: "Packages",
+  //   icon: FaEarthAmericas,
+  // },
   { href: "#footer", key: "contact", label: "Contact", icon: IoIosContact },
 ];
 

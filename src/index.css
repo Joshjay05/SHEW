@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
 
 @tailwind base;
 @tailwind components;
@@ -24,7 +24,7 @@ body {
 }
 
 .bg-red {
-  background-color: rgb(255, 213, 213);
+  background-color: rgb(172, 45, 45);
 }
 
 .bg-blue {
@@ -37,7 +37,7 @@ body {
 
 @layer utilities {
   .btn_white_rounded {
-    @apply bg-white px-8 py-4 text-gray-90;
+    @apply bg-white px-8 py-4 text-gray;
   }
   .btn_light_rounded {
     @apply border-slate-10 bg-slate-50 px-8 py-4 text-gray-100;

@@ -1,12 +1,5 @@
-// import { CATEGORIES } from "./Container";
-import { categories } from "../constants";
-// import Container from "./Container";
 import { motion } from "framer-motion";
-// import CategoryItems from "./CategoryItems";
-import Button from "./Button";
-import { FaTelegramPlane } from "react-icons/fa";
-import Link from "next/link";
-import CategoryItems from "./CategoryItems";
+
 import Container from "./Container";
 
 interface Props {
@@ -43,31 +36,7 @@ const BannerText = ({ title }: Props) => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
           className="flex  gap-x-4 mt-2"
-        >
-          <article className=" relative  sm:top-1/3 z-10">
-            <div className="mt-8">
-              <Link href="#feature">
-                <Button
-                  type="button"
-                  title="Travel Plan"
-                  icon={FaTelegramPlane}
-                  variant="btn_white_rounded"
-                />
-              </Link>
-            </div>
-
-            <h4 className="text-white my-4 bold-22">Explore the key points</h4>
-            <ul className="flex flex-wrap gap-4">
-              {categories.map((category) => (
-                <CategoryItems
-                  key={category.title}
-                  title={category.title}
-                  icon={category.icon}
-                />
-              ))}
-            </ul>
-          </article>
-        </motion.div>
+        ></motion.div>
       </Container>
     </div>
   );
