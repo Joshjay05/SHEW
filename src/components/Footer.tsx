@@ -4,7 +4,7 @@ import logo from "../assets/logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-300 py-8 px-4 md:px-8 lg:px-16">
+    <footer id="footer" className="bg-slate-300 py-8 px-4 md:px-8 lg:px-16">
       <div className="container mx-auto flex sm:flex-col md:flex-row justify-between items-start">
         {/* Logo Section */}
         <div className="mb-6 md:mb-0 flex justify-center md:justify-start">

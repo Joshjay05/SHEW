@@ -6,7 +6,7 @@ import vol from "../assets/Vol.jpeg";
 
 const Membership = () => {
   return (
-    <section>
+    <section id="donation" className="my-[3rem]">
       <h2 className="text-center text-[#E37619] text-[36px] my-6 font-bold">
         Call For Help
       </h2>
@@ -15,18 +15,24 @@ const Membership = () => {
         <div className="flex flex-col gap-4">
           <img src={vol} alt="membershipImage" className="w-full" />
           <div className="leading-[3rem] my-10">
-            <h3 className="font-bold text-2xl">Call For Funding</h3>
+            <h3 className="font-bold text-2xl">
+              Support S.H.E.W Foundation: Your Donation Makes a Difference
+            </h3>
             <p className="leading-[2rem] py-[2rem]  text-justify">
-              With your donation, we are able to organise more events. Visit the
-              regions that are in need and provide them with the basic. Our
-              S.H.E.W. events are spreading hope, knowing others care and that
-              provides motivation. Donate today through our GOFUNDME campaign,
-              Facebook page or directly on the website. Our goal is to raise 100
-              000 euros, to deliver and build that ecosystem for children in
-              need and take them off the streets. Changing the world is hard,
-              but we can contribute making one or two places better at a time.
-              Your donation matters. Every dollar, euro, pound is a catalyst and
-              helps S.H.E.W. building a better future
+              With your generous support, we can organize more impactful events,
+              reach regions in need, and provide essential resources to those
+              who require them most. Our S.H.E.W. Foundation events are designed
+              to spread hope and inspire motivation, showing that others care
+              and are willing to make a difference. Donate today through our
+              GoFundMe campaign, Facebook page, or directly on our website. We
+              aim to raise €100,000 to build a sustainable ecosystem for
+              children in need and help take them off the streets. While
+              changing the world is challenging, every contribution helps us
+              improve one community at a time. Your donation is invaluable.
+              Every dollar, euro, or pound serves as a catalyst for change,
+              helping the S.H.E.W. Foundation build a brighter future for those
+              in need. Join us in making a meaningful impact—your support truly
+              matters.
             </p>
             <a href="reg">
               <button className="bg-[#E37619] border text-white rounded-lg py-[12px] px-[24px] my-[2rem] text-[16px] cursor-pointer">
@@ -56,7 +62,7 @@ const Membership = () => {
           <MembershipCard
             number="03."
             title="Nutrition  "
-            text="PProviding them enough food and healthy meals will lower the deaths. Building better immune systems will decrease the risk of being hospitalized and take the burden of nursing homes, clinics and doctors  "
+            text="Providing them enough food and healthy meals will lower the deaths. Building better immune systems will decrease the risk of being hospitalized and take the burden of nursing homes, clinics and doctors  "
           />
           <MembershipCard
             number="04."
@@ -65,13 +71,13 @@ const Membership = () => {
           />
           <MembershipCard
             number="05."
-            title="Approval & Welcome"
-            text="Our team will review your application and send a welcome packet with full membership details, benefits, and upcoming events within one week. . "
+            title="Combat Hunger"
+            text="The S.H.E.W Foundation is dedicated to helping children, the elderly, and widows living on the streets, in villages, and in orphanages. We provide essential food and supplies, offering hope and demonstrating our commitment to those in need. "
           />
           <MembershipCard
             number="06."
-            title="Get Involved"
-            text="With confirmation, you’ll gain immediate access to member-exclusive resources and a calendar of events so you can start participating right away. . "
+            title="Transforming Lives"
+            text="With your support, we can provide essential supplies and support to caretakers in need. A simple smile and knowing that others are contributing make a significant difference. Every act of kindness is a step forward in our shared journey towards progress and improvement. "
           />
         </div>
       </article>

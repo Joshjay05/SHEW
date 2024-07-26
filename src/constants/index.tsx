@@ -9,7 +9,7 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 // import { FaEarthAmericas } from "react-icons/fa6";
 
 import { IoIosContact } from "react-icons/io";
-import { IoCheckmarkCircleOutline } from "react-icons/io5";
+// import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 import { MdSupportAgent } from "react-icons/md";
 import { SiCoursera } from "react-icons/si";
@@ -38,80 +38,6 @@ export const NAV_LINKS: NAV[] = [
 ];
 
 // About
-export const ABOUT = [
-  { title: "Comfortable Journey", icon: IoCheckmarkCircleOutline },
-  { title: "Luxuries Hotel", icon: IoCheckmarkCircleOutline },
-
-  { title: "Travel Guide", icon: IoCheckmarkCircleOutline },
-  { title: "Popular Destination", icon: IoCheckmarkCircleOutline },
-];
-
-export const PACKAGES = [
-  {
-    title: "Sweden",
-    price: "",
-    URL: "/sweden.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "Lithuania",
-    price: "",
-    URL: "/Lithuania.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "USA",
-    price: "",
-    URL: "/usa.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-
-  {
-    title: "UK",
-    price: "",
-    URL: "/newyork.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "Ireland",
-    price: "",
-    URL: "/Ireland.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "Canada",
-    price: "",
-    URL: "/canadian.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "Australia",
-    price: "",
-    URL: "/Australiaa.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "Finland",
-    price: "",
-    URL: "/finland.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-  {
-    title: "Croatia",
-    price: "",
-    URL: "/croatia.jpg",
-    des: "",
-    duration: "30 dYA",
-  },
-];
 
 export const TESTIMONIAL = [
   {

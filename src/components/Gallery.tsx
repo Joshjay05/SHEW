@@ -13,17 +13,21 @@ const Image: React.FC = () => {
         <div className="">
           <h1 className="text-[#E37619]">S.H.E.W Past Events</h1>
           <p className="text-left px-4">
-            <b>Combat Hunger:</b> Helping children, elderly and widows on the
-            street in Nigeria. Providing them food and essentials. Giving them
-            hope that S.H.E.W Foundation is doing their best to keep helping the
-            ones in need
-            <p>
-              <b>Transforming Lives:</b> S.H.E.W Foundation made a visit to Ay
-              Isigi Nursing Home in Cyprus. Donating essentials and supporting
-              the caretakers. A smile and letting them know others are helping
-              is a massive step forward for progress
-            </p>
-            w 23 ]\
+            S.H.E.W Foundation: Transforming Lives and Combating Hunger At the
+            S.H.E.W Foundation, our mission extends across borders to make a
+            tangible difference in the lives of those in need. In Nigeria, we
+            are dedicated to combating hunger by providing essential food and
+            necessities to children, the elderly, and widows living on the
+            streets. Our efforts aim to offer hope and support, demonstrating
+            our commitment to uplifting those who are struggling. Our work also
+            reaches beyond Nigeria. Recently, we had the privilege of visiting
+            the Ay Isigi Nursing Home in Cyprus, where we donated essential
+            supplies and supported the hardworking caretakers. By bringing
+            smiles and encouragement, we are fostering progress and letting
+            people know that they are not alone. Every act of kindness and
+            support from S.H.E.W Foundation is a step toward a brighter future
+            for those we serve.
+            {/* </p> */}
           </p>
         </div>
 

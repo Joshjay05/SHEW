@@ -12,18 +12,20 @@ const Header = () => {
         <section className="flex flex-row justify-between pb-10  pt-[8rem] relative ">
           <article className="text-white absolute inset-y-[38%] left-[5.6%]  w-[90%] md:w-auto ">
             <h4 className="text-2xl md:text-lg lg:text-4xl  font-bold w-[60%]">
-              Embrace{" "}
-              <span className="bg-[#E37619] px-1 ">Humanity ][=-p0``],</span>{" "}
-              Enrich Your Connections
+              Embrace <span className="bg-[#E37619] px-1 ">Humanity ,</span>{" "}
+              Combat Hunger, Enrich Numerous Lives
             </h4>
             <p className="text-xs md:text-base lg:text-lg leading-normal md:leading-[1.5em] tracking-normal py-3">
               Transform lives with us. Give talent a chance
             </p>
             <div className="flex flex-row gap-3 items-center">
-              <button className="border-2 border-white-400 rounded-lg py-2 px-4 md:py-3 md:px-6  sm:shadow cursor-pointer">
-                Discover Your Roots
-              </button>
-              <a href="reg">
+              <a
+                href="#donation"
+                className="border-2 border-white-400 rounded-lg py-2 px-4 md:py-3 md:px-6  sm:shadow cursor-pointer"
+              >
+                Discover How
+              </a>
+              <a href="#footer">
                 <button className="bg-[#E37619] rounded-lg py-3 px-4 md:py-3 md:px-6 text-base shadow border-0 cursor-pointer">
                   {" "}
                   Join Us Today

@@ -4,7 +4,10 @@ interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
   return (
-    <section className="flex sm:flex-col items-center lg:flex md:flex-row bg-[#e9f8ff] mt-12 md:mt-0">
+    <section
+      id="about"
+      className="flex sm:flex-col items-center lg:flex md:flex-row bg-[#e9f8ff] mt-12 md:mt-0"
+    >
       <article className="flex-1 p-4 md:p-8">
         <h1 className="text-center md:text-left text-[#61d0ff] text-2xl md:text-4xl font-semibold mb-4">
           About SHEW Foundation
