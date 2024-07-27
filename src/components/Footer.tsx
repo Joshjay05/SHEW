@@ -24,7 +24,9 @@ const Footer = () => {
         <div className="flex sm:flex-col justify-start md:flex-row gap-8 mb-6 md:mb-0">
           {FOOTER_LINKS.map((col) => (
             <div className="flex flex-col gap-7">
-              <h4 className="font-bold text-center">{col.title}</h4>
+              <h4 className="font-bold sm:text-left text-center">
+                {col.title}
+              </h4>
               <ul className="space-y-2 text-gray-700 ">
                 {col.links.map((link) => (
                   <li key={link}>
