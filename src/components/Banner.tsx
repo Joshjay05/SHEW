@@ -5,7 +5,7 @@ const Header = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <header className="bg-[#2d2735] relative md:h-100vh md:pb-10 md:pt-2 sm:pb-6 z-10">
+    <header className="bg-[#2d2735] relative md:h-100vh md:pb-10 md:pt-2 sm:pb-6 z-10 py-[80px]">
       {isAboveMediumScreens ? (
         <section className="relative flex flex-row justify-between pb-10 pt-[8rem]">
           <article className="z-30 text-white absolute inset-y-[38%] left-[5.6%] w-[90%] md:w-auto">
@@ -44,13 +44,13 @@ const Header = () => {
         </section>
       ) : (
         <section className="relative flex flex-row justify-between pb-6">
-          <article className="flex flex-col text-white justify-evenly absolute top-[20%] md:top-[28%] sm:top-[5vh] sm:left-[7%] left-[14.6%] justify-items-center">
-            <h4 className="md:text-xl w-[60%] font-bold sm:text-sm sm:pb-2">
+          <article className="flex flex-col text-white justify-evenly gap-[20px] absolute top-[20%] md:top-[28%] sm:top-[5vh] sm:left-[7%] left-[14.6%] justify-items-center z-30">
+            <h4 className="md:text-3xl  font-bold sm:text-sm sm:pb-2 leading-[2em]">
               Embrace{" "}
               <span className="bg-[#E37619] px-1 sm:leading-6">Humanity</span>{" "}
               Combat Hunger, Enrich Numerous Lives
             </h4>
-            <p className="md:text-base leading-[1.5em] md:py-2 sm:text-xs sm:leading-3">
+            <p className="md:text-2xl leading-[1.5em] md:py-2 sm:text-xs sm:leading-3">
               Transform lives with us. Give talent a chance
             </p>
             <div className="flex flex-row gap-3 md:my-auto sm:mt-4">

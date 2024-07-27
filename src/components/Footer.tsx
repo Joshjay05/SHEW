@@ -4,10 +4,13 @@ import logo from "../assets/logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-slate-300 py-8 px-4 md:px-8 lg:px-16">
-      <div className="container mx-auto flex sm:flex-col md:flex-row justify-between items-start">
+    <footer
+      id="footer"
+      className="bg-slate-300 py-8 px-4 md:px-8 lg:px-16 mt-10"
+    >
+      <div className=" flex sm:flex-col justify-between items-start mx-6 md:mx-2 md:gap-[20px]">
         {/* Logo Section */}
-        <div className="mb-6 md:mb-0 flex justify-center md:justify-start">
+        <div className="mb-6 md:mb-0 flex justify-center md:justify-start lg:px-5">
           <a href="/" className="flex items-center">
             <img
               src={logo}
@@ -18,10 +21,11 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="flex flex-col md:flex-row gap-8 mb-6 md:mb-0">
+        <div className="flex sm:flex-col justify-start md:flex-row gap-8 mb-6 md:mb-0">
           {FOOTER_LINKS.map((col) => (
-            <FooterColumn title={col.title} key={col.title}>
-              <ul className="space-y-2 text-gray-700">
+            <div className="flex flex-col gap-7">
+              <h4 className="font-bold text-center">{col.title}</h4>
+              <ul className="space-y-2 text-gray-700 ">
                 {col.links.map((link) => (
                   <li key={link}>
                     <a href="/" className="hover:text-blue-500">
@@ -30,7 +34,7 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-            </FooterColumn>
+            </div>
           ))}
         </div>
 
@@ -38,9 +42,9 @@ const Footer = () => {
         <div className="mb-6 md:mb-0">
           <FooterColumn title={SOCIALS_LINKS.title}>
             {SOCIALS_LINKS.links.map((link) => (
-              <div className="flex  md:flex-row gap-2 mb-2" key={link.label}>
+              <div className="flex  md:flex-row  mb-2" key={link.label}>
                 <p className="font-medium">{link.label}:</p>
-                <p className="text-gray-700">{link.value}</p>
+                <p className="text-gray-700 text-wrap">{link.value}</p>
               </div>
             ))}
           </FooterColumn>

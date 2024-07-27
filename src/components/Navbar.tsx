@@ -1,12 +1,10 @@
-"use client";
 import { NAV_LINKS } from "../constants";
 
 import { useState } from "react";
-// import { CgLogIn } from "react-icons/cg";
+
 import logo from "../assets/logo.jpeg";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
-// import { Link } from "react-router-dom";
 import Button from "./Button";
 import { FcCallTransfer } from "react-icons/fc";
 
@@ -18,13 +16,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween bg-slate-100 max-container px-12 z-30 py-2 shadow-xl rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]">
       {/* <Link to={"/"} className="bold-20 rounded-full"> */}
-      <img
-        src={logo}
-        alt="logo"
-        width={80}
-        height={80}
-        className="rounded-full"
-      />
+      <img src={logo} alt="logo" className="rounded-full w-10" />
       {/* </Link> */}
       {/* desktop */}
 
@@ -55,7 +47,7 @@ const Navbar = () => {
       {/* mobile */}
       {!showMenu ? (
         <div className="lg:hidden inline-block  cursor-pointer bg-slate-10">
-          <GiHamburgerMenu className="h-6 w-6" onClick={toggleMenu} />
+          <GiHamburgerMenu className="h-5 w-5" onClick={toggleMenu} />
         </div>
       ) : (
         <div
